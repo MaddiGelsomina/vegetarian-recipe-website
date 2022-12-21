@@ -4,9 +4,9 @@ import Recipes from "../components/recipes";
 const Home = () => {
   return (
     <>
-      <div className="w-full h-auto flex flex-col item-center justify-between py-8">
+      <div className="w-full h-auto flex flex-col item-center justify-between py-5">
         <div className="flex flex-1 flex-col items-center justify-top">
-          <h1 className=" text-4xl lg:text-5xl xl:text-6xl text-green-900 tracking-wider font-bold font-serif text-center">
+          <h1 className=" text-4xl lg:text-5xl xl:text-6xl text-green-900 tracking-wider font-bold font-serif text-center -mt-8">
             Search unique vegetarian recipes
           </h1>
           <div className="flex flex-col items-center space-y-2 mt-12">

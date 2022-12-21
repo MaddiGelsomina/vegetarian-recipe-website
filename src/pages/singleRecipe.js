@@ -59,7 +59,7 @@ const SingleRecipe = () => {
         {loading ? (
           <Spinner />
         ) : (
-          <section className="bg-white bg-opacity-80 mx-10 mt-1 mb-5 py-10 rounded-lg px-12">
+          <section className="bg-white bg-opacity-80 mx-10 mt-0 mb-5 py-4 rounded-lg px-12">
             <div className="flex flex-col items-center justify-center">
               <button
                 className="mt-2 rounded-md border border-green-900 bg-white text-green-900 text-lg font-bold font-serif 

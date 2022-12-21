@@ -7,7 +7,7 @@ const Navigation = () => {
     <>
       <div className="bg-transparent">
         <Link to="/">
-          <button className="w-40 h-20 ml-8 -mt-4">
+          <button className="w-40 h-20 ml-8 -mt-6">
             <img src={VYlogo} alt="VeggYeahlogo"></img>
           </button>
         </Link>
