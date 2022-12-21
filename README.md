@@ -1,6 +1,6 @@
 # Vegetarian Recipe Website
 
-[Visita VeggYeah!](https://veggyeah.netlify.app/recipe/1095755)
+[Visita VeggYeah!](https://veggyeah.netlify.app/)
 
 VeggYeah is a website to search vegetarian recipes. It fetches the recipes from Spoonacular API(https://spoonacular.com/food-api
 
