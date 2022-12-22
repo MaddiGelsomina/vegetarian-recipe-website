@@ -8,6 +8,7 @@ import Navigation from "./components/navigation";
 import Searched from "./pages/searched";
 import background from "./images/background.jpg";
 import Error from "./pages/error";
+import ScrollToTop from "./components/scrollToTop";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         style={{ backgroundImage: `url(${background})` }}
         className="bg-scroll bg-cover bg-center min-h-screen"
       >
+        <ScrollToTop />
         <Navigation />
         <Routes>
           <Route exact path="/" element={<Home />} />
