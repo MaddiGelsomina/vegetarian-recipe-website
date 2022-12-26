@@ -45,7 +45,7 @@ const Recipes = () => {
           <section className="grid grid-flow-row gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             {modifiedRecipe.map((item) => {
               return (
-                <div>
+                <div key={item.id}>
                   <Card key={item.id} element={item} />
                 </div>
               );
