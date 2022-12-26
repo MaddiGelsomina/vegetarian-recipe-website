@@ -12,20 +12,27 @@ const Card = ({ element }) => {
             <p className="text-xl px-3 text-green-900 font-bold font-serif text-center">
               {element.title}
             </p>
+
             <div>
-              <div
-                className="grid px-7 py-4 items-center text-green-900 font-serif justify-around
+              {element.servings && element.minutes ? (
+                <div
+                  className="grid px-7 py-4 items-center text-green-900 font-serif justify-around
                      grid-cols-2 gap-4 divide-x divide-solid"
-              >
-                <div className="col-span-1 px-3 flex flex-col items-center">
-                  <span className="text-xl font-bold">{element.servings}</span>
-                  <span className="text-lg font-bold">Person</span>
+                >
+                  <div className="col-span-1 px-3 flex flex-col items-center">
+                    <span className="text-xl font-bold">
+                      {element.servings}
+                    </span>
+                    <span className="text-lg font-bold">Person</span>
+                  </div>
+                  <div className="col-span-1 px-3 flex flex-col items-center">
+                    <span className="text-xl font-bold">{element.minutes}</span>
+                    <span className="text-lg font-bold">Minutes</span>
+                  </div>
                 </div>
-                <div className="col-span-1 px-3 flex flex-col items-center">
-                  <span className="text-xl font-bold">{element.minutes}</span>
-                  <span className="text-lg font-bold">Minutes</span>
-                </div>
-              </div>
+              ) : (
+                <div className="m-3"></div>
+              )}
             </div>
 
             <p className="text-lg text-green-900 font-bold font-serif">
